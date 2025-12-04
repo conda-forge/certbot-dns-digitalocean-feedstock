@@ -1,6 +1,6 @@
 context:
   name: certbot-dns-digitalocean
-  version: "5.1.0"
+  version: "5.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 2c0b90029bae068bb2a8aa20e1003c9ba993fc68c3c13e8510f67b7147a384b7
+  sha256: 1760856def8460fa47e08b2baa17e4514809869298952a128c61cd3472f1115d
 
 build:
   noarch: python
